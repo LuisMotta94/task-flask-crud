@@ -88,6 +88,6 @@ def delete_task(id):
     tasks.remove(task)
     return jsonify({'Message': "Task deletada com sucesso"})
     
-
+    
 if __name__ == "__main__": # Desevolvimento local (na propria máquina)
     app.run(debug=True)
